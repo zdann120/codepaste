@@ -27,6 +27,7 @@ gem 'rectify', '~> 0.6.1'
 gem 'ulid'
 gem 'pry-rails'
 gem 'omniauth-github'
+gem 'dotenv-rails'
 
 
 # Use jquery as the JavaScript library

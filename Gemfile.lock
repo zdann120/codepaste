@@ -83,6 +83,10 @@ GEM
       declarative (>= 0.0.8, < 1.0.0)
       representable (>= 2.4.0, <= 3.1.0)
       uber
+    dotenv (2.1.1)
+    dotenv-rails (2.1.1)
+      dotenv (= 2.1.1)
+      railties (>= 4.0, < 5.1)
     equalizer (0.0.11)
     erubis (2.7.0)
     execjs (2.7.0)
@@ -272,6 +276,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise
+  dotenv-rails
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
