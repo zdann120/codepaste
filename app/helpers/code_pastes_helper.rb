@@ -1,0 +1,2 @@
+module CodePastesHelper
+end

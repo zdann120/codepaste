@@ -5,6 +5,8 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable
   before_create :set_token
 
+  devise :omniauthable, omniauth_providers: [:github]
+
   private
 
   def set_token
